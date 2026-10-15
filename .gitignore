@@ -1,7 +1,9 @@
+.vercel
+node_modules
+.DS_Store
+*.log
+
+# Local credentials must never be committed
 .env
 .env.*
 !.env.example
-.vercel/
-node_modules/
-.DS_Store
-*.log

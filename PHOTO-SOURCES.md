@@ -1,0 +1,1 @@
+Illustrative images from the original established Wakili wa Tech template are hosted on images.pexels.com (Pexels). Each used content-image URL is distinct; branding assets and portrait supplied by the user. The hero is locally packaged from the previous Steyn delivery; attorney photo from user-supplied material. Do not claim stock imagery depicts the firm.

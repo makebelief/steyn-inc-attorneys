@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-# Demo pages use a meta noindex tag; social previews remain accessible.
+# All HTML pages include meta robots noindex pending client authorisation.
+# Allow social preview crawlers to fetch the firm-branded OG image.
