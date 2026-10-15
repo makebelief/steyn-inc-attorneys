@@ -123,3 +123,9 @@ section.hero::before{background-image:linear-gradient(90deg,rgba(8,8,8,.96) 0%,r
 .profile-photo img{object-fit:contain!important;object-position:center center!important;max-width:100%;height:auto;background:#f1f1f1}
 .intro-picture>img{object-position:center center}
 .footer-logo img{object-fit:contain}
+
+/* Steyn Inc V3 — requested picture corrections only.
+   The circle already exists in the source PNG: never paint a rectangular backing. */
+.profile-photo{background:transparent!important;box-shadow:none!important;display:flex;align-items:center;justify-content:center;overflow:visible!important}
+.profile-photo>img{display:block!important;width:min(100%,390px)!important;height:auto!important;aspect-ratio:1/1!important;object-fit:contain!important;object-position:center center!important;background:transparent!important;box-shadow:none!important;border:0!important;border-radius:0!important;filter:none!important}
+.intro-picture>img[src$="steyn-home-legal-still-life.webp"]{object-fit:cover;object-position:center center}
